@@ -1,0 +1,47 @@
+img {
+  height: 100%;
+  margin: 10px;
+}
+
+
+.clip-circle {
+  clip-path: circle(60% at center);
+}
+.clip-ellipse {
+  clip-path: ellipse(60px 40px at center);
+}
+.clip-polygon {
+  clip-path: polygon(5% 5%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+}
+
+.clip-filter {
+  backdrop-filter: blur(5px);
+}
+
+.clip-rec {
+  clip-path: polygon(125px 250px, 312px 250px, 312px 312px, 125px 312px);
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.content{
+
+}
+
+
+/*
+body {
+  background: linear-gradient(
+    to bottom,
+    red,
+    green
+  );
+}
+
+
+body, html {
+  height: 100px;
+}
+*/
